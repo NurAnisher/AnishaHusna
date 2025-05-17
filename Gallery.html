@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery - Anisha Husna</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #907d58;
+      color: #060606;
+    }
+
+    .gallery {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .album {
+      margin-bottom: 3rem;
+    }
+
+    .album h2 {
+      color: #fdfdfd;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #f4f5f5;
+      padding-bottom: 0.5rem;
+    }
+
+    .album-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 15px;
+    }
+
+    .album-grid img {
+      width: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      object-fit: cover;
+      height: 200px;
+    }
+
+    .album-grid img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+    <nav>
+  <div class="nav-links">
+    <a href="MyResume.html">Profile</a>
+    <a href="Lifestyle.html">Lifestyle</a>
+    <a href="Gallery.html">Gallery</a>
+  </div>
+</nav>
+
+  <div class="gallery">
+
+    <div class="album" id="travel-album">
+      <h2>Travel Album</h2>
+      <div class="album-grid">
+        <img src="image/beach.jpg" alt="Beach View" />
+        <img src="image/cameron.jpg" alt="Waterfall" />
+        <img src="image/awan.jpg" alt="Mountain" />
+        <img src="image/Pantai.jpg" alt="pantai" />
+        <img src="image/nature.jpg" alt="little waterfall" />
+        <img src="image/dannok.jpg" alt="Dannok" />
+        
+      </div>
+    </div>
+
+    <div class="album" id="food-album">
+      <h2>Food Album</h2>
+      <div class="album-grid">
+        <img src="image/nasi_kukus.jpg" alt="Nasi Kukus" />
+        <img src="image/side.jpg" alt="side dish" />
+        <img src="image/western_dinner.jpg" alt="Western" />
+        <img src="image/makan breakfast.jpg" alt="nasi lemak" />
+        <img src="image/Makan.jpg" alt="nasi lemak" />
+        <img src="image/pizza.jpg" alt="pizza" />
+      </div>
+    </div>
+
+    <div class="album" id="Work-Life Balance">
+      <h2>Life Balance Album</h2>
+      <div class="album-grid">
+        <img src="image/program.jpg" alt="program" />
+        <img src="image/sport.jpg" alt="sport" />
+        <img src="image/ride.jpg" alt="ride" />
+        <img src="image/relax.jpg" alt="relax" />
+        <img src="image/raya.jpg" alt="family" />
+        <img src="image/sunset.jpg" alt="sunset" />
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
